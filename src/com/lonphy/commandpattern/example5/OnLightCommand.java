@@ -1,7 +1,7 @@
 package com.lonphy.commandpattern.example5;
 
 public class OnLightCommand implements Command{
-	Light light;
+	private Light light;
 	
 	public OnLightCommand(Light light) {
 		super();

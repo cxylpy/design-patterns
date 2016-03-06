@@ -1,7 +1,7 @@
 package com.lonphy.commandpattern.example3;
 
 public class PrintNumber {
-	int n;
+	private int n;
 
 	public PrintNumber(int n) {
 		super();

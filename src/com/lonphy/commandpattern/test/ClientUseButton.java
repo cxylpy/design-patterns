@@ -12,9 +12,9 @@ import com.lonphy.commandpattern.example4.MultiCommand;
 import com.lonphy.commandpattern.example4.ShowMultForm;
 
 public class ClientUseButton extends JFrame{
-	JButton button;
-	Command command;
-	Invoke person;
+	private JButton button;
+	private Command command;
+	private Invoke person;
 	public ClientUseButton() throws HeadlessException {
 		super();
 		person = new Invoke();

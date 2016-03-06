@@ -1,7 +1,7 @@
 package com.lonphy.commandpattern.example3;
 
 public class RequestPerson {
-	Command command;
+	private Command command;
 
 	public Command getCommand() {
 		return command;

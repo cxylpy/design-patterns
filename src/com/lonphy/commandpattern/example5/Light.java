@@ -6,9 +6,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class Light extends JPanel{
-	String name;
-	Icon imageIcon;
-	JLabel label;
+	private String name;
+	private Icon imageIcon;
+	private JLabel label;
 	public Light() {
 		super();
 		label =  new JLabel("我是照明灯");

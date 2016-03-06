@@ -3,8 +3,8 @@ package com.lonphy.commandpattern.example2;
 import java.util.LinkedList;
 
 public class ConcreteCommand implements Command {
-	LinkedList<String> dirNameList;
-	MakeDir makeDir;
+	private LinkedList<String> dirNameList;
+	private MakeDir makeDir;
 
 	public ConcreteCommand(MakeDir makeDir) {
 		super();

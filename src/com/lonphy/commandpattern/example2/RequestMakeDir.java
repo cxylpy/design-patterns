@@ -1,7 +1,7 @@
 package com.lonphy.commandpattern.example2;
 
 public class RequestMakeDir {
-	Command command;
+	private Command command;
 
 	public Command getCommand() {
 		return command;

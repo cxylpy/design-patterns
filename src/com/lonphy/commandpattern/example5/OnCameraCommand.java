@@ -1,7 +1,7 @@
 package com.lonphy.commandpattern.example5;
 
 public class OnCameraCommand implements Command{
-	Camera camera;
+	private Camera camera;
 	
 	public OnCameraCommand(Camera camera) {
 		super();

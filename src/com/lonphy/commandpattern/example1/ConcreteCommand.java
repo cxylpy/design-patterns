@@ -1,7 +1,7 @@
 package com.lonphy.commandpattern.example1;
 
 public class ConcreteCommand implements Command{
-	CompanyArmy army;
+	private CompanyArmy army;
 
 	public ConcreteCommand(CompanyArmy army) {
 		super();

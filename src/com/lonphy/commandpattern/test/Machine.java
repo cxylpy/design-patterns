@@ -16,9 +16,9 @@ import com.lonphy.commandpattern.example5.OnCameraCommand;
 import com.lonphy.commandpattern.example5.OnLightCommand;
 
 public class Machine extends JFrame{
-	Invoke requestOnCamera,requestOffCamera,requestOnLight,requestOffLight;
-	Camera camera;
-	Light light;
+	private Invoke requestOnCamera,requestOffCamera,requestOnLight,requestOffLight;
+	private Camera camera;
+	private Light light;
 	public Machine() throws HeadlessException {
 		super();
 		setTitle("小家电");

@@ -6,8 +6,8 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 
 public class Invoke {
-	JButton button;
-	Command command;
+	private JButton button;
+	private Command command;
 	public Invoke() {
 		button = new JButton();
 		button.addActionListener(new ActionListener() {
