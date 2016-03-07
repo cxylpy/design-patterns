@@ -23,7 +23,10 @@ public class Invoke {
 	public JButton getButton() {
 		return button;
 	}
-
+	/**
+	 * 根据相应的命令改变按钮显示的文字
+	 * @param command
+	 */
 	public void setCommand(Command command) {
 		this.command = command;
 		button.setText(command.getName());
