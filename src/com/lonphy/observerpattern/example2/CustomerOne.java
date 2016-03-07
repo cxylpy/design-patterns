@@ -11,7 +11,7 @@ public class CustomerOne implements Observer{
 
 	@Override
 	public void update() {
-		if(subject instanceof ShopSubject) {
+		if(subject instanceof ShopSubject) { //如果主题是ShopSubject的实例
 			goodsName = ((ShopSubject)subject).getGoodsName();
 			System.out.println(personName+"只对打折商品的名字感兴趣：");
 			System.out.println("打折的商品是："+goodsName);

@@ -10,7 +10,7 @@ public class UniversityStudent implements Observer{
 	private File myFile;
 	public UniversityStudent(Subject subject, String fileName) {
 		this.subject = subject;
-		subject.addObserver(this);
+		subject.addObserver(this); //使当前实例成为subject所引用的具体主题的观察者
 		myFile = new File(fileName);
 	}
 	@Override

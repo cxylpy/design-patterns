@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class SeekJobCenter implements Subject {
 	private String message;
 	private boolean changed;
-	private ArrayList<Observer> personList;
+	private ArrayList<Observer> personList; //存放观察者引用的集合
 
 	public SeekJobCenter() {
 		super();
@@ -29,7 +29,7 @@ public class SeekJobCenter implements Subject {
 	@Override
 	public void notifyObservers() {
 		if (changed) {
-			for (Observer o : personList) {
+			for (Observer o : personList) { //通知所有观察者
 				o.hearTelephone(message);
 			}
 			changed = false;
@@ -37,7 +37,7 @@ public class SeekJobCenter implements Subject {
 	}
 	
 	public void giveNewMessage(String str) {
-		if(str.equals(message)) {
+		if(str.equals(message)) { //如果信息相同就不通知
 			changed = false;
 		} else {
 			message = str;
