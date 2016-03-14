@@ -1,0 +1,88 @@
+
+
+  
+    
+    
+    
+    
+    
+    
+    
+
+    Narrow Jumbotron Template for Bootstrap
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+      
+      
+    
+  
+
+  
+
+    
+      
+        
+          
+            Home
+            About
+            Contact
+          
+        
+        Project name
+      
+
+      
+        Jumbotron heading
+        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        Sign up today
+      
+
+      
+        
+          Subheading
+          Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+
+          Subheading
+          Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+
+          Subheading
+          Maecenas sed diam eget risus varius blandit sit amet non magna.
+        
+
+        
+          Subheading
+          Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
+
+          Subheading
+          Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+
+          Subheading
+          Maecenas sed diam eget risus varius blandit sit amet non magna.
+        
+      
+
+      
+        &copy; 2015 Company, Inc.
+      
+
+     
+
+
+    
+    
+  
+
