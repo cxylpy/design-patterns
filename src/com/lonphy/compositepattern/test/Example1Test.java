@@ -19,9 +19,6 @@ public class Example1Test {
 		MilitaryPerson monitor21 = new MilitaryOfficer("一班长", 2000);
 		MilitaryPerson monitor22 = new MilitaryOfficer("二班长", 2000);
 		MilitaryPerson monitor23 = new MilitaryOfficer("三班长", 2000);
-//		MilitaryPerson monitor31 = new MilitaryOfficer("一班长", 2000);
-//		MilitaryPerson monitor32 = new MilitaryOfficer("二班长", 2000);
-//		MilitaryPerson monitor33 = new MilitaryOfficer("三班长", 2000);
 		MilitaryPerson soldiers[] = new MilitaryPerson[60];
 		for(int i = 0; i < soldiers.length; i++) {
 			soldiers[i] = new MilitarySoldier(1000, "小兵");
