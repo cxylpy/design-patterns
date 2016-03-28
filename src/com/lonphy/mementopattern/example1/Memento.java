@@ -5,11 +5,11 @@ import java.io.Serializable;
 public class Memento implements Serializable{
 	private long state;
 
-	public long getState() {
+	long getState() {
 		return state;
 	}
 
-	public void setState(long state) {
+	void setState(long state) {
 		this.state = state;
 	}
 	
